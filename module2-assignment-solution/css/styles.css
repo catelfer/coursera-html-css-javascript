@@ -1,10 +1,10 @@
 * {
     box-sizing: border-box;   
 }
-div#container {
+div#container1 {
     background-color: #fff;
-    position: relative;
 }
+
 
 /* Our Menu */
 .title{
@@ -12,58 +12,91 @@ div#container {
     margin: 45px;
 }
 
-h2 {
-    text-align: right;
-    background-color: aqua;
-    width: 100%;
-    height: 100%;
+/* Section Titles */
+div#container2{
+    background-color: #fff;
+    float: right;
+    position: relative;
 }
+
+
+#chicken {
+    background-color: blueviolet;
+    border: 2px solid black;
+    color: black;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    position: relative;
+    right: 120%;
+}
+
+#beef {
+    background-color: azure;
+    border: 2px solid black;
+    color: black;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    position: relative;
+}
+
+#sushi {
+    background-color: bisque;
+    border: 2px solid black;
+    color: black;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    position: relative;
+ }
 
 /* box texts */
 p {
     background-color: #2aa469;
     border: 1px solid black;
-    width: 90%;
-    height: 150px;
-    margin-right: auto;
-    margin-left: auto;
+    width: 94%;
+    height: 170px;
+    font-family: Helvetica;
+    color: #fff;
+    overflow: auto;
+}
+
+#p1 {
+    background-color: #2aa469;
+    border: 1px solid black;
+    width: 94%;
+    height: 170px;
+    font-family: Helvetica;
+    color: #fff;
+    overflow: auto;
+    padding-top: 120px;
+}
+
+
+#p2 {
+    background-color: #2aa469;
+    border: 1px solid black;
+    width: 94%;
+    height: 170px;
     font-family: Helvetica;
     color: #fff;
     overflow: auto;
 }
 
 
-
-/* Food titles */
-
-/*
-#chicken {
-    background-color: blueviolet;
-    width: 100px;
-    height: 30px;
-    position: absolute;
-    left: 25%;
-    text-align: center;
+#p3 {
+    background-color: #2aa469;
+    border: 1px solid black;
+    width: 94%;
+    height: 170px;
+    font-family: Helvetica;
+    color: #fff;
+    overflow: auto;
+    padding-top: 20px;
 }
 
-#beef {
-    background-color: azure;
-    width: 70px;
-    height: 30px;
-    position: absolute;
-    left: 60%;
-    text-align: center;
-}
 
-#sushi {
-   background-color: bisque;
-   width: 70px;
-   height: 30px;
-   position: absolute;
-   left: 92%;
-   text-align: center;
-}
-*/
 
 /* For a simple responsive framework */
 .row {
@@ -75,19 +108,20 @@ p {
     .col-lg-1, .col-lg-2, .col-lg-3 {
       float: left;
       border: 3px solid black;
-      padding: 10px;
+      margin: 1%;
+      padding: 60px 10px 10px 10px;
     }
 
     .col-lg-1 {
-        width: 33%
+        width: 31.3%
     }
 
     .col-lg-2 {
-        width: 33%
+        width: 31.3%
     }
 
     .col-lg-3 {
-        width: 33%
+        width: 31.3%
     }
 }
 
@@ -96,19 +130,20 @@ p {
     .col-md-1, .col-md-2, .col-md-3 {
         float: left;
         border: 3px solid black;
-        padding: 10px;
+        margin: 1%;
+        padding: 70px 10px 10px 10px;
     }
 
     .col-md-1 {
-        width: 50%
+        width: 47%
     }
 
     .col-md-2 {
-        width: 50%
+        width: 47%
     }
 
     .col-md-3 {
-        width: 100%
+        width: 96%
     }
 
 }
@@ -118,18 +153,19 @@ p {
     .col-sm-1, .col-sm-2, .col-sm-3 {
         float: left;
         border: 3px solid black;
-        padding: 10px;
+        margin: 1%;
+        padding: 80px 10px 10px 10px;
     }
 
     .col-sm-1 {
-        width: 100%
+        width: 97%
     }
 
     .col-sm-2 {
-        width: 100%
+        width: 97%
     }
 
     .col-sm-3 {
-        width: 100%
+        width: 97%
     }
 }
